@@ -1,0 +1,81 @@
+2025-09-01 11:03:49,167 - INFO - Music Library Manager started
+2025-09-01 11:03:52,837 - INFO - Integrity verifier started.
+2025-09-01 11:03:52,837 - INFO - Integrity verifier ended.
+2025-09-01 11:04:04,436 - INFO - Music Library Manager ended.
+2025-09-01 11:12:15,758 - INFO - Music Library Manager started
+2025-09-01 11:12:19,504 - INFO - Integrity verifier started.
+2025-09-01 11:12:19,504 - INFO - Integrity verifier ended.
+2025-09-01 11:12:32,496 - INFO - Music Library Manager ended.
+2025-09-01 11:16:26,702 - INFO - Music Library Manager started
+2025-09-01 11:16:30,738 - INFO - Integrity verifier started.
+2025-09-01 11:16:30,738 - INFO - Integrity verifier ended.
+2025-09-01 11:16:48,938 - INFO - Music Library Manager ended.
+2025-09-01 11:19:52,840 - INFO - Music Library Manager started
+2025-09-01 11:20:05,672 - INFO - Integrity paranoid started.
+2025-09-01 11:20:05,672 - DEBUG - Library path: /home/jon/Music
+2025-09-01 11:20:05,673 - DEBUG - Library file types: *.flac,*.dsf,*.mp3,cover.jpg, folder.jpg
+2025-09-01 11:20:05,673 - DEBUG - Library checksum tool: /usr/bin/sha256sum
+2025-09-01 11:20:05,673 - DEBUG - Library checksum type: sha256
+2025-09-01 11:31:36,205 - INFO - Music Library Manager started
+2025-09-01 11:31:40,988 - INFO - Integrity paranoid started.
+2025-09-01 11:31:40,989 - DEBUG - Library path: /home/jon/Music
+2025-09-01 11:31:40,989 - DEBUG - Library file types: *.flac,*.dsf,*.mp3,cover.jpg, folder.jpg
+2025-09-01 11:31:40,989 - DEBUG - Library checksum tool: /usr/bin/sha256sum
+2025-09-01 11:31:40,989 - DEBUG - Library checksum type: sha256
+2025-09-01 11:31:41,166 - DEBUG - /home/jon/Music/Asia Featuring John Payne - Military Man (2009)/03. Neurosaur (2009 Version).mp3
+2025-09-01 11:31:41,210 - INFO - Checksum HEX: 36613636633366363063346665376435653066313133663834393562343633386161376162383835303464343034386265346461346532366237346235666534
+2025-09-01 11:31:41,210 - DEBUG - Checksum: 6a66c3f60c4fe7d5e0f113f8495b4638aa7ab88504d4048be4da4e26b74b5fe4
+2025-09-01 11:31:41,257 - DEBUG - /home/jon/Music/Asia Featuring John Payne - Military Man (2009)/05. Long Way Home (Radio Edit).mp3
+2025-09-01 11:31:41,290 - INFO - Checksum HEX: 61376134613363343430643662376630303032366265353064336439656336373836306566616436313138636236666638393638653834656666633938316465
+2025-09-01 11:31:41,290 - DEBUG - Checksum: a7a4a3c440d6b7f00026be50d3d9ec67860efad6118cb6ff8968e84effc981de
+2025-09-01 11:31:41,340 - DEBUG - /home/jon/Music/Asia Featuring John Payne - Military Man (2009)/02. Long Way From Home (2009 Version).mp3
+2025-09-01 11:31:41,396 - INFO - Checksum HEX: 65616539316561303466386164613639616130323138343635353739613161353631326136306563393930326163376331363132363934306530336634346662
+2025-09-01 11:31:41,396 - DEBUG - Checksum: eae91ea04f8ada69aa0218465579a1a5612a60ec9902ac7c16126940e03f44fb
+2025-09-01 11:31:41,453 - DEBUG - /home/jon/Music/Asia Featuring John Payne - Military Man (2009)/2012 (New Single) Seasons Will Change.mp3
+2025-09-01 11:31:41,479 - INFO - Checksum HEX: 63306463326638313236623437353064363135623935343464316662333961356663653033636232653466626363623333383131313264613339643239303666
+2025-09-01 11:31:41,479 - DEBUG - Checksum: c0dc2f8126b4750d615b9544d1fb39a5fce03cb2e4fbccb3381112da39d2906f
+2025-09-01 11:31:41,549 - DEBUG - /home/jon/Music/Asia Featuring John Payne - Military Man (2009)/01. Military Man (2009 Version).mp3
+2025-09-01 11:31:41,589 - INFO - Checksum HEX: 61613033373731386663663464633331653130363664306139373735333035313736393064626439323033393562306534323239366165626537303061306562
+2025-09-01 11:31:41,589 - DEBUG - Checksum: aa037718fcf4dc31e1066d0a977530517690dbd920395b0e42296aebe700a0eb
+2025-09-01 11:31:41,640 - DEBUG - /home/jon/Music/Asia Featuring John Payne - Military Man (2009)/04. Military Man (Radio Edit).mp3
+2025-09-01 11:31:41,670 - INFO - Checksum HEX: 37366631373764363337643661613339326366393732633962313730383734623463656136323965653031393431313939643532626139376331393633653731
+2025-09-01 11:31:41,671 - DEBUG - Checksum: 76f177d637d6aa392cf972c9b170874b4cea629ee01941199d52ba97c1963e71
+2025-09-01 11:31:41,715 - DEBUG - /home/jon/Music/Asia Featuring John Payne - Military Man (2009)/cover.jpg
+2025-09-01 11:31:41,716 - INFO - Checksum HEX: 38316665323362303561623334666165616330343735333963396633663134303138373061646131396133366634316566386439336533326437666335356266
+2025-09-01 11:31:41,716 - DEBUG - Checksum: 81fe23b05ab34faeac047539c9f3f1401870ada19a36f41ef8d93e32d7fc55bf
+2025-09-01 11:31:41,765 - DEBUG - Integrity check completed.
+2025-09-01 11:31:57,939 - INFO - Music Library Manager ended.
+2025-09-01 11:35:11,720 - INFO - Music Library Manager started
+2025-09-01 11:35:16,021 - INFO - Integrity paranoid started.
+2025-09-01 11:35:16,021 - DEBUG - Library path: /home/jon/Music
+2025-09-01 11:35:16,021 - DEBUG - Library file types: *.flac,*.dsf,*.mp3,cover.jpg, folder.jpg
+2025-09-01 11:35:16,021 - DEBUG - Library checksum tool: /usr/bin/sha256sum
+2025-09-01 11:35:16,021 - DEBUG - Library checksum type: sha256
+2025-09-01 11:35:16,192 - DEBUG - /home/jon/Music/Asia Featuring John Payne - Military Man (2009)/03. Neurosaur (2009 Version).mp3
+2025-09-01 11:35:16,234 - DEBUG - Checksum: 6a66c3f60c4fe7d5e0f113f8495b4638aa7ab88504d4048be4da4e26b74b5fe4
+2025-09-01 11:35:16,284 - DEBUG - /home/jon/Music/Asia Featuring John Payne - Military Man (2009)/05. Long Way Home (Radio Edit).mp3
+2025-09-01 11:35:16,316 - DEBUG - Checksum: a7a4a3c440d6b7f00026be50d3d9ec67860efad6118cb6ff8968e84effc981de
+2025-09-01 11:35:16,367 - DEBUG - /home/jon/Music/Asia Featuring John Payne - Military Man (2009)/02. Long Way From Home (2009 Version).mp3
+2025-09-01 11:35:16,422 - DEBUG - Checksum: eae91ea04f8ada69aa0218465579a1a5612a60ec9902ac7c16126940e03f44fb
+2025-09-01 11:35:16,484 - DEBUG - /home/jon/Music/Asia Featuring John Payne - Military Man (2009)/2012 (New Single) Seasons Will Change.mp3
+2025-09-01 11:35:16,520 - DEBUG - Checksum: c0dc2f8126b4750d615b9544d1fb39a5fce03cb2e4fbccb3381112da39d2906f
+2025-09-01 11:35:16,575 - DEBUG - /home/jon/Music/Asia Featuring John Payne - Military Man (2009)/01. Military Man (2009 Version).mp3
+2025-09-01 11:35:16,619 - DEBUG - Checksum: aa037718fcf4dc31e1066d0a977530517690dbd920395b0e42296aebe700a0eb
+2025-09-01 11:35:16,675 - DEBUG - /home/jon/Music/Asia Featuring John Payne - Military Man (2009)/04. Military Man (Radio Edit).mp3
+2025-09-01 11:35:16,704 - DEBUG - Checksum: 76f177d637d6aa392cf972c9b170874b4cea629ee01941199d52ba97c1963e71
+2025-09-01 11:35:16,759 - DEBUG - /home/jon/Music/Asia Featuring John Payne - Military Man (2009)/cover.jpg
+2025-09-01 11:35:16,760 - DEBUG - Checksum: 81fe23b05ab34faeac047539c9f3f1401870ada19a36f41ef8d93e32d7fc55bf
+2025-09-01 11:35:16,817 - DEBUG - Integrity check completed.
+2025-09-01 11:35:28,011 - INFO - Music Library Manager ended.
+2025-09-17 16:22:01,258 - INFO - Music Library Manager started
+2025-09-17 16:27:22,013 - INFO - Music Library Manager started
+2025-09-17 16:31:28,577 - INFO - Music Library Manager started
+2025-09-17 16:35:59,693 - INFO - Music Library Manager started
+2025-09-17 16:50:48,128 - INFO - Music Library Manager started
+2025-09-18 12:28:43,060 - INFO - Music Library Manager started
+2025-09-18 12:35:34,570 - INFO - Music Library Manager started
+2025-09-18 12:38:00,504 - INFO - Music Library Manager started
+2025-09-18 13:03:58,983 - INFO - Music Library Manager started
+2025-09-18 13:19:18,364 - INFO - Music Library Manager started
+2025-09-18 13:20:19,834 - INFO - Music Library Manager started
+2025-09-18 13:20:45,782 - INFO - Music Library Manager started
