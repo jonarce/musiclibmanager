@@ -23,15 +23,7 @@ import fnmatch, os, hashlib
 # Classes for eacj menu item
 from Toplevel_paranoid import Toplevel_paranoid
 
-def get_sha256_hash(file_path)=
-    
-
-
-
-
-
-
-+
+def get_sha256_hash(file_path):
     with open(file_path, "rb") as f:
         for chunk in iter(lambda: f.read(4096), b""):
             hash_sha256.update(chunk)
