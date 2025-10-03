@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+`   ``          qw#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
 # Filename: musiclibmanager.py
@@ -8,9 +8,10 @@
 #
 
 # Import the required libraries
-# ttk - tkinter modern widgets
+# ttk - tkinter modern widgets (will replace classic ones)
 from tkinter import *
-from tkinter import ttk, messagebox
+from tkinter import ttk
+from tkinter import filedialog
 # ini file reader
 import configparser
 import subprocess
@@ -18,21 +19,36 @@ import subprocess
 import logging
 # support for SQLite3 database
 import sqlite3
-import fnmatch, os
+import fnmatch, os, hashlib
+# Classes for eacj menu item
+from Toplevel_paranoid import Toplevel_paranoid
 
+def get_sha256_hash(file_path)=
+    
+
+
+
+
+
+
++
+    with open(file_path, "rb") as f:
+        for chunk in iter(lambda: f.read(4096), b""):
+            hash_sha256.update(chunk)
+    return hash_sha256.hexdigest()
 
 # fileNewItem
-def addNewMusic(event):
+def addNewMusic():
     print('newAddMusic')
     # Perform new add music tasks here
 
 # fileQuit
-def fileQuit(event):
+def fileQuit():
     logger.info('Music Library Manager ended.')
-    rootframe.Close()
+    root.Close()
 
 # integrityVerify
-def integrityVerify(event):
+def integrityVerify():
     logger.info('Integrity verifier started.')
     # Perform integrity verification tasks here
     logger.info('Integrity verifier ended.')
@@ -48,7 +64,7 @@ def string_to_hex(input_string):
 
 # integrityParanoid will calculate the checksum of each music file 
 # and compare it to the stored checksum (inside an sqlite database)
-def integrityParanoid(event):
+def menu_integrityChecksum():
     # read configuration ini file
     config = configparser.ConfigParser()
     config.read('musiclibmanager.ini')
@@ -59,9 +75,16 @@ def integrityParanoid(event):
     logging.basicConfig(filename=config['APP']['logfile'], 
                         format='%(asctime)s - %(levelname)s - %(message)s', 
                         level=logging.DEBUG)
-    logger.info('Integrity paranoid started.')
+    logger.info('Integrity Calc-Checksum started.')
+
+    child_window = Toplevel()
+    canvas = Canvas(child_window, height=500, width=600)
+    canvas.pack()
 
     libpath = config['LIBRARY']['location']
+    #libpath = filedialog.askopenfilename(title="Select Library Directory", filetype=(('text files''*.txt'),('all files','*.*')))
+    libpath = filedialog.askdirectory()
+    ttk.Label(child_window, text=libpath, font=13).pack()
     logger.debug(f"Library path: {libpath}")
     # include cover images in the checksum calculation
     if config['COVER']['imagenames']:
@@ -69,8 +92,6 @@ def integrityParanoid(event):
     else:
         scanfiletypes = config['LIBRARY']['filetypes']
     logger.debug(f"Library file types: {scanfiletypes}")
-    checksumtool = config['LIBRARY']['checksumtool'] 
-    logger.debug(f"Library checksum tool: {checksumtool}")
     checksumtype = config['LIBRARY']['checksumtype']
     logger.debug(f"Library checksum type: {checksumtype}")
 
@@ -90,24 +111,24 @@ def integrityParanoid(event):
         for extensions in scanfiletypes.split(','):
             for filename in fnmatch.filter(filenames, extensions):
                 logger.debug(os.path.join(root, filename))
-                result = subprocess.run([checksumtool, ' ', os.path.join(root, filename)],
-                capture_output=True,text=True)  # Python >= 3.7 only
-                # just get the checksum output (till the first whitespace)
-                chksum=result.stdout
-                error=result.stderr
+                # calculate checksum
+                chksum=get_sha256_hash(os.path.join(root, filename))
+                error=FALSE
 
                 if error is None or not str(error).strip():
                     logger.error(f"Checksum error: {error}")
                 else:
-                    chksum=chksum.split(None,1)[0] # only the checksum (as it comes with the name of the file added at the end)
                     logger.debug(f"Checksum: {chksum}")
-                    cursor.execute("INSERT INTO checksum (file, chksumtype, chksum) VALUES (?, ?, ?)",
-                                   (os.path.join(root, filename), checksumtype, chksum))
+                    cursor.execute("INSERT INTO checksum (libpath,file,chksumtype,chksum) VALUES (?, ?, ?, ?)",
+                                   (libpath, os.path.join(root, filename), checksumtype,chksum))
                     cursor.connection.commit()
 
     sqliteConnection.close()
     logger.debug("Integrity check completed.")
 
+def menu_integrityParanoid():
+    global paranoid_window
+    paranoid_window = IntegrityParanoid()
 
 # main #
 
@@ -117,17 +138,17 @@ config.read('musiclibmanager.ini')
 
 # Initialize the application 
 root = Tk()
+#root.geometry("1525x1017")
+root.geometry("762x508")
 root.title('Music Library Manager')
-root.geometry("3051x2034")
 
-# add the menunar
+# add the menubar
 root.option_add('*tearOff', FALSE)
-m = Menu(root)
-m_edit = Menu(m)
+menu_bar = Menu(root)
 
 
 # background image
-bg = PhotoImage(file = "music.jpg")
+bg = PhotoImage(file = "bg_music.png")
 
 # Show image using label
 labelbg = Label( root, image = bg)
@@ -141,34 +162,30 @@ logging.basicConfig(filename=config['APP']['logfile'],
                         level=logging.DEBUG)
 logger.info('Music Library Manager started')
 
-#
-m.add_cascade(menu=m_edit, label="Edit")
-m_edit.add_command(label="Paste", command=lambda: root.focus_get().event_generate("<<Paste>>"))
-m_edit.add_command(label="Find...", command=lambda: root.event_generate("<<OpenFindDialog>>"))
-root['menu'] = m
-
 # create the File and Edit menus
-#menu_file = Menu(menubar)
-#menu_edit = Menu(menubar)
-#menubar.add_cascade(menu=menu_file, label='File')
-#menubar.add_cascade(menu=menu_edit, label='Edit')
-
-#menubar = Menu(root)
-#root.config(menu=menubar)
-
-# create a menu
-#fileMenu = Menu(menubar)
+menubar = Menu(root)
+root.config(menu=menubar)
+menu_file = Menu(menubar)
+menu_integrity = Menu(menubar)
+menu_cover = Menu(menubar)
+menubar.add_cascade(menu=menu_file, label='File')
+menubar.add_cascade(menu=menu_integrity, label='Integrity')
+menubar.add_cascade(menu=menu_cover, label='Cover')
 
 # add a menu item to the menu
-#fileMenu.add_command(
-#    label='Exit',
-#    command=root.destroy
-#)
+menu_file.add_command(
+    label='Exit',
+    command=root.destroy)
 
 # integrity
-#integrityMenu = Menu(menubar)
+menu_integrity.add_command(
+    label='Calc CheckSums',
+    command=menu_integrityChecksum)
+
 #integrityItem = integrityMenu.add_command(label='&Verify Integrity', command=integrityVerify)
-#integrityItem = integrityMenu.add_command(label='&Verify Paranoid Mode', command=integrityParanoid)
+integrityItem = menu_integrity.add_command(
+    label='Integrity Paranoid Mode', 
+    command=menu_integrityParanoid)
 
 # Start the event loop 
 root.mainloop()

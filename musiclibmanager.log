@@ -72,10 +72,110 @@
 2025-09-17 16:31:28,577 - INFO - Music Library Manager started
 2025-09-17 16:35:59,693 - INFO - Music Library Manager started
 2025-09-17 16:50:48,128 - INFO - Music Library Manager started
-2025-09-18 12:28:43,060 - INFO - Music Library Manager started
-2025-09-18 12:35:34,570 - INFO - Music Library Manager started
-2025-09-18 12:38:00,504 - INFO - Music Library Manager started
-2025-09-18 13:03:58,983 - INFO - Music Library Manager started
-2025-09-18 13:19:18,364 - INFO - Music Library Manager started
-2025-09-18 13:20:19,834 - INFO - Music Library Manager started
-2025-09-18 13:20:45,782 - INFO - Music Library Manager started
+2025-09-18 12:50:15,804 - INFO - Music Library Manager started
+2025-09-18 12:52:59,947 - INFO - Music Library Manager started
+2025-09-18 12:59:14,867 - INFO - Music Library Manager started
+2025-09-18 13:00:06,170 - INFO - Music Library Manager started
+2025-09-18 13:03:18,909 - INFO - Music Library Manager started
+2025-09-18 13:05:54,774 - INFO - Music Library Manager started
+2025-09-18 16:02:29,887 - INFO - Music Library Manager started
+2025-09-18 16:03:56,486 - INFO - Music Library Manager started
+2025-09-18 16:12:52,874 - INFO - Music Library Manager started
+2025-09-18 16:41:13,180 - INFO - Music Library Manager started
+2025-09-18 16:43:26,733 - INFO - Music Library Manager started
+2025-09-18 16:45:52,916 - INFO - Music Library Manager started
+2025-09-18 16:46:07,159 - INFO - Integrity Calc-Checksum started.
+2025-09-19 07:45:19,304 - INFO - Music Library Manager started
+2025-09-19 19:46:03,437 - INFO - Music Library Manager started
+2025-09-19 19:46:08,513 - INFO - Integrity Calc-Checksum started.
+2025-09-19 19:53:03,563 - INFO - Music Library Manager started
+2025-09-19 19:53:08,939 - INFO - Integrity Calc-Checksum started.
+2025-09-19 19:55:49,457 - INFO - Music Library Manager started
+2025-09-19 19:55:54,640 - INFO - Integrity Calc-Checksum started.
+2025-09-19 19:56:31,106 - DEBUG - Library path: 
+2025-09-19 19:56:31,106 - DEBUG - Library file types: *.flac,*.dsf,*.mp3,cover.jpg, folder.jpg
+2025-09-19 19:56:31,106 - DEBUG - Library checksum tool: /usr/bin/sha256sum
+2025-09-19 19:56:31,106 - DEBUG - Library checksum type: sha256
+2025-09-19 19:56:31,121 - DEBUG - Integrity check completed.
+2025-09-19 20:02:27,656 - INFO - Music Library Manager started
+2025-09-19 20:02:32,121 - INFO - Integrity Calc-Checksum started.
+2025-09-19 20:02:44,724 - DEBUG - Library path: C:/Users/jon/Music
+2025-09-19 20:02:44,724 - DEBUG - Library file types: *.flac,*.dsf,*.mp3,cover.jpg, folder.jpg
+2025-09-19 20:02:44,724 - DEBUG - Library checksum tool: /usr/bin/sha256sum
+2025-09-19 20:02:44,725 - DEBUG - Library checksum type: sha256
+2025-09-19 20:02:44,752 - DEBUG - C:/Users/jon/Music\1979-Communique [SHM][SACD]\01 Once Upon A Time In The West.dsf
+2025-09-19 20:30:58,436 - INFO - Music Library Manager started
+2025-09-19 20:31:02,700 - INFO - Integrity Calc-Checksum started.
+2025-09-19 20:31:08,543 - DEBUG - Library path: C:/Users/jon/Music
+2025-09-19 20:31:08,544 - DEBUG - Library file types: *.flac,*.dsf,*.mp3,cover.jpg, folder.jpg
+2025-09-19 20:31:08,544 - DEBUG - Library checksum tool: certutil -hashfile {filename} SHA256
+2025-09-19 20:31:08,544 - DEBUG - Library checksum type: sha256
+2025-09-19 20:31:08,569 - DEBUG - C:/Users/jon/Music\1979-Communique [SHM][SACD]\01 Once Upon A Time In The West.dsf
+2025-09-19 22:11:30,428 - INFO - Music Library Manager started
+2025-09-19 22:11:36,306 - INFO - Integrity Calc-Checksum started.
+2025-09-19 22:11:41,825 - DEBUG - Library path: C:/Users/jon/Music
+2025-09-19 22:11:41,825 - DEBUG - Library file types: *.flac,*.dsf,*.mp3,cover.jpg, folder.jpg
+2025-09-19 22:11:41,825 - DEBUG - Library checksum type: sha256
+2025-09-19 22:11:41,832 - DEBUG - C:/Users/jon/Music\1979-Communique [SHM][SACD]\01 Once Upon A Time In The West.dsf
+2025-09-19 22:11:42,180 - DEBUG - Checksum: 8d0bd7a530e582577eaaecd9daa595e875d18d91572af6699ba3ff0fc6e76088
+2025-09-19 22:13:51,772 - INFO - Music Library Manager started
+2025-09-19 22:14:06,148 - INFO - Music Library Manager started
+2025-09-19 22:14:11,261 - INFO - Integrity Calc-Checksum started.
+2025-09-19 22:14:15,444 - DEBUG - Library path: C:/Users/jon/Music
+2025-09-19 22:14:15,444 - DEBUG - Library file types: *.flac,*.dsf,*.mp3,cover.jpg, folder.jpg
+2025-09-19 22:14:15,444 - DEBUG - Library checksum type: sha256
+2025-09-19 22:14:15,454 - DEBUG - C:/Users/jon/Music\1979-Communique [SHM][SACD]\01 Once Upon A Time In The West.dsf
+2025-09-19 22:14:15,705 - DEBUG - Checksum: 8d0bd7a530e582577eaaecd9daa595e875d18d91572af6699ba3ff0fc6e76088
+2025-09-19 22:14:15,711 - DEBUG - C:/Users/jon/Music\1979-Communique [SHM][SACD]\02 News.dsf
+2025-09-19 22:14:15,967 - DEBUG - Checksum: 4d38cecb00487572ab1add34d1e84fa64cb49c11aa432e9d886f2c3be44485f0
+2025-09-19 22:14:15,972 - DEBUG - C:/Users/jon/Music\1979-Communique [SHM][SACD]\03 Where Do You Think Youre Going.dsf
+2025-09-19 22:14:16,203 - DEBUG - Checksum: 50ab27dbbb309d35e31d3eb530478ffa72cd971b8a1de97c37a725128c6975a8
+2025-09-19 22:14:16,208 - DEBUG - C:/Users/jon/Music\1979-Communique [SHM][SACD]\04 Communique.dsf
+2025-09-19 22:14:16,576 - DEBUG - Checksum: 20f4d0ba52b49fbc893ccdead7c2ad977bba752d249c92d39dfa01d0f003b89b
+2025-09-19 22:14:16,581 - DEBUG - C:/Users/jon/Music\1979-Communique [SHM][SACD]\05 Lady Writer.dsf
+2025-09-19 22:14:16,825 - DEBUG - Checksum: 5cb6790aaa91ae4f9b0999761f5c662d6c381d0a8e6585193b4c22be975e1793
+2025-09-19 22:14:16,829 - DEBUG - C:/Users/jon/Music\1979-Communique [SHM][SACD]\06 Angel of Mercy.dsf
+2025-09-19 22:14:17,119 - DEBUG - Checksum: 3c5fd7ba9f1289530c58b7b0bbb10e80af9a3377df0fccba95f6ce61f5022d3b
+2025-09-19 22:14:17,124 - DEBUG - C:/Users/jon/Music\1979-Communique [SHM][SACD]\07 Portobello Belle.dsf
+2025-09-19 22:14:17,408 - DEBUG - Checksum: 128eec4f4e06ad4125de34cb27ad34c6eef7fc6750beb8157d5ab7e37ee88204
+2025-09-19 22:14:17,413 - DEBUG - C:/Users/jon/Music\1979-Communique [SHM][SACD]\08 Single-Handed Sailor.dsf
+2025-09-19 22:14:17,704 - DEBUG - Checksum: 48738480e017ff27d8225bc49756dde7aeb6e42e83d08288d28aec1e6d7720af
+2025-09-19 22:14:17,708 - DEBUG - C:/Users/jon/Music\1979-Communique [SHM][SACD]\09 Follow Me Home.dsf
+2025-09-19 22:14:18,060 - DEBUG - Checksum: f044caf9125665e9b6edc9b5c4d69f9d0d2258c46299ab1531923a82b0c56c97
+2025-09-19 22:14:18,064 - DEBUG - C:/Users/jon/Music\1979-Communique [SHM][SACD]\cover.jpg
+2025-09-19 22:14:18,064 - DEBUG - Checksum: 579f2f47de4437b7431140ad429f554ef70dfb361a2708973e452109bec8247b
+2025-09-19 22:14:18,069 - DEBUG - Integrity check completed.
+2025-09-19 22:22:34,247 - INFO - Music Library Manager started
+2025-09-19 22:22:38,289 - INFO - Integrity Calc-Checksum started.
+2025-09-19 22:22:42,656 - DEBUG - Library path: C:/Users/jon/Music
+2025-09-19 22:22:42,656 - DEBUG - Library file types: *.flac,*.dsf,*.mp3,cover.jpg, folder.jpg
+2025-09-19 22:22:42,656 - DEBUG - Library checksum type: sha256
+2025-09-19 22:22:42,664 - DEBUG - C:/Users/jon/Music\1979-Communique [SHM][SACD]\01 Once Upon A Time In The West.dsf
+2025-09-19 22:22:42,925 - DEBUG - Checksum: 8d0bd7a530e582577eaaecd9daa595e875d18d91572af6699ba3ff0fc6e76088
+2025-09-19 22:22:42,931 - DEBUG - C:/Users/jon/Music\1979-Communique [SHM][SACD]\02 News.dsf
+2025-09-19 22:22:43,136 - DEBUG - Checksum: 4d38cecb00487572ab1add34d1e84fa64cb49c11aa432e9d886f2c3be44485f0
+2025-09-19 22:22:43,142 - DEBUG - C:/Users/jon/Music\1979-Communique [SHM][SACD]\03 Where Do You Think Youre Going.dsf
+2025-09-19 22:22:43,328 - DEBUG - Checksum: 50ab27dbbb309d35e31d3eb530478ffa72cd971b8a1de97c37a725128c6975a8
+2025-09-19 22:22:43,333 - DEBUG - C:/Users/jon/Music\1979-Communique [SHM][SACD]\04 Communique.dsf
+2025-09-19 22:22:43,619 - DEBUG - Checksum: 20f4d0ba52b49fbc893ccdead7c2ad977bba752d249c92d39dfa01d0f003b89b
+2025-09-19 22:22:43,625 - DEBUG - C:/Users/jon/Music\1979-Communique [SHM][SACD]\05 Lady Writer.dsf
+2025-09-19 22:22:43,807 - DEBUG - Checksum: 5cb6790aaa91ae4f9b0999761f5c662d6c381d0a8e6585193b4c22be975e1793
+2025-09-19 22:22:43,812 - DEBUG - C:/Users/jon/Music\1979-Communique [SHM][SACD]\06 Angel of Mercy.dsf
+2025-09-19 22:22:44,035 - DEBUG - Checksum: 3c5fd7ba9f1289530c58b7b0bbb10e80af9a3377df0fccba95f6ce61f5022d3b
+2025-09-19 22:22:44,040 - DEBUG - C:/Users/jon/Music\1979-Communique [SHM][SACD]\07 Portobello Belle.dsf
+2025-09-19 22:22:44,257 - DEBUG - Checksum: 128eec4f4e06ad4125de34cb27ad34c6eef7fc6750beb8157d5ab7e37ee88204
+2025-09-19 22:22:44,262 - DEBUG - C:/Users/jon/Music\1979-Communique [SHM][SACD]\08 Single-Handed Sailor.dsf
+2025-09-19 22:22:44,488 - DEBUG - Checksum: 48738480e017ff27d8225bc49756dde7aeb6e42e83d08288d28aec1e6d7720af
+2025-09-19 22:22:44,493 - DEBUG - C:/Users/jon/Music\1979-Communique [SHM][SACD]\09 Follow Me Home.dsf
+2025-09-19 22:22:44,779 - DEBUG - Checksum: f044caf9125665e9b6edc9b5c4d69f9d0d2258c46299ab1531923a82b0c56c97
+2025-09-19 22:22:44,785 - DEBUG - C:/Users/jon/Music\1979-Communique [SHM][SACD]\cover.jpg
+2025-09-19 22:22:44,785 - DEBUG - Checksum: 579f2f47de4437b7431140ad429f554ef70dfb361a2708973e452109bec8247b
+2025-09-19 22:22:44,789 - DEBUG - Integrity check completed.
+2025-09-29 15:33:26,952 - INFO - Music Library Manager started
+2025-09-29 15:34:19,126 - INFO - Music Library Manager started
+2025-09-29 15:37:12,422 - INFO - Music Library Manager started
+2025-09-29 15:44:41,151 - INFO - Music Library Manager started
+2025-09-29 15:49:56,441 - INFO - Music Library Manager started
+2025-10-02 13:30:42,860 - INFO - Music Library Manager started
+2025-10-02 15:44:39,802 - INFO - Music Library Manager started
+2025-10-02 15:50:14,026 - INFO - Music Library Manager started
